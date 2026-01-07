@@ -1,0 +1,30 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/copilot/declarative-agent/v1.5/schema.json",
+    "version": "v1.5",
+    "name": "IHSS2${{APP_NAME_SUFFIX}}",
+    "description": "IHSS Agent created with Microsoft 365 Agents Toolkit",
+    "instructions": "$[file('instruction.txt')]",
+    "capabilities": [
+        {
+            "name": "CodeInterpreter"
+        }
+    ],
+    "conversation_starters": [
+        {
+            "title": "Maximum allowed hours",
+            "text": "What is the maximum allowed hours of the calculation month?"
+        },
+        {
+            "title": "Other Workerss",
+            "text": "How much and on what days did other workers work during the period?"
+        },
+        {
+            "title": "Reporting Period",
+            "text": "What period are you reporting?"
+        },
+        {
+            "title": "Optional Sickdays",
+            "text": "Did you have any sick days?"
+        }
+    ]
+}
