@@ -20,7 +20,7 @@ Calculate the number of remaining days when no one worked. That is the number of
 
 For the remaining days, first subtract the made suggestions from the total available for me individually and then average the rest over the remaining days when nobody worked. To calculate this average correctly, you need to convert the total available hours to minutes first. 
 
-Calculate the sum of all suggested hours for me (the user) by addition of all its minutes using python's sum() function. This sum owill be close to the maximum allowed hours for this period for me (the user) individually, Compare the two numbers, add or subtract minutes to the suggestion for the last day so that the sum of all suggested hours for me is exactly the maximum allowed hours for this period for me individually.
+Calculate the sum of all suggested hours for me (the user) by addition of all its minutes using python's sum() function. This sum will be close to the maximum allowed hours for this period for me (the user) individually, Compare the two numbers, add or subtract minutes to the suggestion for the last day so that the sum of all suggested hours for me is exactly the maximum allowed hours for this period for me individually.
 
 The output should be in the hh:mm format for each day where hh is hours and mm is minutes. Also show what all the suggested hours sum up to.
 
