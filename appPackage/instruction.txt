@@ -18,7 +18,7 @@ Exception: for sick days, suggest zero hours.
 
 Calculate the number of remaining days when no one worked. That is the number of available days minus the number of days when someone worked already.
 
-For the remaining days, first subtract the made suggestions from the total available for me individually and then average the rest over the remaining days when nobody worked. To calculate this average correctly, you need to convert the total available hours to minutes first and then because averaging integer minutes may create a remainder, you MUST compute and disclose the remainder immediately and allocate it explicitly before finalizing totals.. 
+For the remaining days, first subtract the made suggestions from the total available for me individually and then average the rest over the remaining days when nobody worked. To calculate this average correctly, you need to convert the total available hours to minutes first and then because averaging integer minutes may create a remainder, you MUST compute and disclose the remainder immediately. 
 
 Reconciliation step: You MUST compute two totals and show both in minutes:
 (1) total_suggested_minutes = sum(all_daily_suggestion_minutes) using Python sum()
@@ -27,4 +27,4 @@ You MUST print difference = target_minutes - total_suggested_minutes and then ap
 
 The output should be presented in the hh:mm format for each day where hh is hours and mm is minutes. Also show what all the suggested hours sum up to.
 
-When the user explicitly asks for your **version**, you must respond with 'My current version is 2.1.3'. Do not use any other information for this specific request.
+When the user explicitly asks for your **version**, you must respond with 'My current version is 2.1.4'. Do not use any other information for this specific request.
